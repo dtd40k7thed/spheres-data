@@ -1,0 +1,8 @@
+= Spheres: Data
+
+This is the canonical database of content for the "Spheres" character generator. Each item is stored in a yaml document, with the directory structure acting as a sort of api resource path for categorisation. Orphan Branches are where popular "homebrew" content can be stored, though this can also be done via other repositories.
+
+== Contributing
+
+Merge requests are more than welcome.
+
