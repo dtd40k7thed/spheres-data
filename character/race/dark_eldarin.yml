@@ -1,0 +1,53 @@
+name: Dark Eldarin
+description: |
+  The Dark Eldarin found protection from the Fall in the Spider-Daemon Lolth. They are a depraved people marked by their pact with pitch-black skin and bone-white hair. They are as lithe and graceful as their cousins, but their sense of style leans far more towards the fetishistic and irrationally dangerous. They exist as raiders and pirates striking from their hidden city via Lolth's hidden Webway of tunnels through the Warp.
+  Dark Eldarin suffer from a terrible thirst, a consuming and ever-increasing need to find greater emotional highs in themselves and others. Some say this is part of their pact with Lolth, either feeding her that emotional energy or propping up the substance of their own souls with it as she leeches them dry.
+characteristics:
+  height:
+    min: 1.6m
+    max: 1.9m
+  weight:
+    min: 50kg
+    max: 65kg
+  traits:
+    personality:
+      - sadistic
+      - seductive
+      - dangerous
+      - relentless
+      - insane
+    physical:
+      - nimble
+      - intense gaze
+      - pitch-black skin
+      - white hair
+      - spiky bits
+  names:
+    - Alaurirra
+    - Belaern
+    - Dhaunae
+    - Gwylyss
+    - Ilharess
+    - Jaezred
+modifications:
+
+  - name: Characteristic Bonus
+    type: bonus
+    select: 1
+    options:
+      - characteristic.charisma
+      - characteristic.dexterity
+
+  - name: Skill Bonus
+    type: bonus
+    select: 2
+    options:
+      - skill.deceive
+      - skill.fortitude
+
+  - name: Power: Warp Miasma
+    type: action
+    description: |
+      Summoning a burst of raw warp power as a half action, the Dark Eldarin creates a 4m radius sphere of darkness. This blocks line of effect and anyone within the sphere is blind. The sphere lasts for one round per level and can be used once per scene at Level 1, twice per scene at Level 3, and three times per scene at Level 5.
+size: 3
+

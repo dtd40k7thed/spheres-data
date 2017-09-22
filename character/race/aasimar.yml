@@ -1,0 +1,55 @@
+name: Aasimar
+description: |
+  The Aasimar exist to serve the Blessed Pantheon. They are tall, averaging more than two meters, strong, and are almost inhumanly beautiful, often having golden or silver hair, glowing eyes, or other signs of their supernatural origins. Their history suggests that they are the descendants of humans who escaped their crystal sphere long ago and made the long journey across the Astral Sea. They do not reproduce like the other races - they choose from among the best and the brightest of other races to join their ranks, intense indoctrination, training, and the blessings of the gods turning them into Aasimar.
+  Aasimar don't have a culture as much as they have religion. They're servants first and foremost, warrior-monks and priests. Most don't have much of a social life, at least outside of small circles of respected friends and comrades in arms. Most see Aasimar as being stoic and rather humorless, focused only on their mission. It's certainly not too far from the truth.
+characteristics:
+  height:
+    min: 2.4m
+    max: 2.6m
+  weight:
+    min: 100kg
+    max: 140kg
+  traits:
+    personality:
+      - stoic
+      - focused
+      - quiet
+      - loyal
+      - obedient
+    physical:
+      - great height
+      - long face
+      - metallic hair
+      - glowing eyes
+      - exceedingly tough
+  names:
+    - Antonius
+    - Caecilia
+    - Eliguius
+    - Junia
+    - Leontius
+    - Rhea
+size: 5
+modifications:
+
+  - name: Characteristic Bonus
+    type: bonus
+    select: 1
+    options:
+      - characteristic.wisdom
+      - characteristic.constitution
+
+  - name: Skill Bonus
+    type: bonus
+    select: 2
+    options:
+      - skill.command
+      - skill.ballistics
+
+  - name: Power: And They Shall Know No Fear
+    type: bonus
+    select: 2
+    options:
+      - feat.jaded
+      - feat.fearless
+
